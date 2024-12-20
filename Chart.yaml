@@ -1,0 +1,8 @@
+apiVersion: v2
+name: cilium-argocd
+version: 0.0.1
+
+dependencies:
+- name: cilium
+  version: 1.16.5
+  repository: https://helm.cilium.io/
